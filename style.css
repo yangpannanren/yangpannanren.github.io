@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-    background-image: url(./images/sakura2.jpg);
+    background-image: url(/yangpannanren/yangpannanren.github.io/edit/main/images/sakura2.jpg);
     background-size: cover;
     position: relative;
 }
@@ -33,7 +33,7 @@ body {
 }
 
 .article {
-    max-width: 800px;
+    max-width: none;
     margin: 0 auto;
     padding: 0;
     /* 拟物玻璃化效果 */
