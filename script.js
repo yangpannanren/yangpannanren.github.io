@@ -15,7 +15,7 @@ const petalArray = [];
 
 // 加载花瓣图片
 const petalImg = new Image();
-petalImg.src = 'images/petal.png';
+petalImg.src = './images/petal.png';
 // 待图片加载完毕，将100个花瓣类的实例放到花瓣数组petalArray中
 petalImg.addEventListener('load', () =>{
     for (let i = 0; i < TOTAL; i++) {
