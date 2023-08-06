@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-    background-image: url(./images/sakura2.jpg);
+    background-image: url(/yangpannanren/yangpannanren.github.io/edit/main/images/sakura2.jpg);
     background-size: cover;
     position: relative;
 }
@@ -57,4 +57,10 @@ h4 {
     text-indent: 2em;
     line-height: 2;
     margin-bottom: 1em;
+}
+
+.datetime {
+    text-align: center;
+    color: red;
+    font-size: 20px;
 }
