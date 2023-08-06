@@ -33,9 +33,9 @@ body {
 }
 
 .article {
-    
+    max-width: 800px;
     margin: 0 auto;
-    padding: 55px 50px;
+    padding: 0;
     /* 拟物玻璃化效果 */
     background-color: rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(15px) saturate(180%);
