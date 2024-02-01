@@ -1,3 +1,18 @@
+var color = ['red', 'green', 'yellow', 'blue', 'black', 'gold', 'orange', 'gray', 'pink', 'maroon', 'Purple' , 'MistyRose' ]; //钟表颜色数组    
+setInterval(function(){   
+        var date = new Date();   
+        var year = date.getFullYear();    //获取当前年份   
+        var mon = date.getMonth()+1;      //获取当前月份   
+        var da = date.getDate();          //获取当前日   
+        var day = date.getDay();          //获取当前星期几   
+        var h = date.getHours();          //获取小时   
+        var m = date.getMinutes();        //获取分钟   
+        var s = date.getSeconds();        //获取秒   
+        var d = document.getElementById('datetime');    
+        d.innerHTML=year+'年'+mon+'月'+da+'日 '+'星期'+"日一二三四五六".charAt(day)+' '+h+':'+m+':'+s; 
+        d.style.color = color[s%color.length+1]; //设置随机颜色
+        },1000)
+
 const canvas = document.querySelector('canvas');
 
 // innerWidth: 视口宽度
